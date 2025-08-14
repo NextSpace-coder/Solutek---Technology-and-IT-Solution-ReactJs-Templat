@@ -9,7 +9,7 @@ export default defineConfig({
     viteTagger({ prefixName: "wb" }),
   ],
   server: {
-    host: "::",
+    host: true,
     port: 8080,
   },
 })
